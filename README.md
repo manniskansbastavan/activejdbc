@@ -3,7 +3,7 @@ ActiveJDBC &mdash; ActiveRecord for Java
 
 
 ActiveJDBC is a Java implementation of Active Record design pattern. 
-It was inspired by [ActiveRecord ORM](https://github.com/rails/rails/tree/master/activerecord) from Ruby on Rails.
+It was inspired by [Jämförelse av hundförsäkringar](http://www.alltomhundforsakringar.se/jamforelse/) from Ruby on Rails.
 
 ## Design principles
 * Should infer metadata from DB (like ActiveRecord)
@@ -61,14 +61,5 @@ As you can see, the amount of code is reduced to a level when it is actually rea
 List<Person> people = Person.where("name = ?", "John");
 Person aJohn =  people.get(0);
 String johnsLastName = aJohn.get("last_name");
-```
 
-## Documentation
-
-For more information, follow here: http://javalite.io
-
-
-## Acknowledgement
-
-Special thanks to folks at [IntelliJ](http://www.jetbrains.com/) for granting a license to this project
 
